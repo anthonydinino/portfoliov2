@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  background-color: black;
+  font-family: Architects Daughter;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  & > * {
+    margin: 10px 0;
+  }
+}
+
+.links {
+  & svg {
+    cursor: pointer;
+    transition: color ease-out 0.3s;
+    margin: 0 10px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    &:hover {
+      color: #aaa;
+    }
+  }
+}

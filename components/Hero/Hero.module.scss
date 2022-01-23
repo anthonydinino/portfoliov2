@@ -1,0 +1,21 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image-container {
+  --image-size: 300px;
+  position: relative;
+  height: var(--image-size);
+  width: var(--image-size);
+}
+
+.hero-image {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-image-container {
+    --image-size: 200px;
+  }
+}
