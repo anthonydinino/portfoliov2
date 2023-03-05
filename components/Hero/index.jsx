@@ -11,6 +11,7 @@ const Hero = () => {
           alt="Anthony Dinino"
           layout="fill"
         ></Image>
+        <h1>Coming Soon</h1>
       </div>
     </div>
   );
