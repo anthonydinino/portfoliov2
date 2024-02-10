@@ -5,6 +5,7 @@ import { MdFileDownload } from "react-icons/md";
 const Hero = () => {
   return (
     <div className={["section", styles["hero-section"]].join(" ")}>
+      <h6>Work In Progress</h6>
       <div className={styles["hero-image-container"]}>
         <Image
           className={styles["hero-image"]}

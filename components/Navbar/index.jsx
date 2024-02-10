@@ -38,23 +38,9 @@ const Navbar = () => {
           id="nav-links"
         >
           <div className="navbar-end">
-            <a className="navbar-item">About</a>
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">Work</a>
-              <div className="navbar-dropdown">
-                <a className="navbar-item">VinylBits</a>
-                <hr className="navbar-divider" />
-                <a
-                  className="navbar-item"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://anthonydinino.com.au"
-                >
-                  Old portfolio
-                </a>
-              </div>
-            </div>
-            <a className="navbar-item">Contact</a>
+            <a className="navbar-item" href="mailto:adinino1996@gmail.com">
+              Contact
+            </a>
           </div>
         </div>
       </div>
