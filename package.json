@@ -1,9 +1,6 @@
 {
   "name": "portfoliov2",
   "private": true,
-  "engines" : {
-    "node": "^20.0.0"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
