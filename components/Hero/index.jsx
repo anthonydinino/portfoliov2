@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Hero.module.scss";
+import { MdFileDownload } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -12,6 +13,10 @@ const Hero = () => {
           layout="fill"
         ></Image>
       </div>
+      <h1 className="title">Download my Resume</h1>
+      <a href="Anthony-Dinino.pdf" download>
+        <MdFileDownload size={40} />
+      </a>
     </div>
   );
 };
